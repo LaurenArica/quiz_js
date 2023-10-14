@@ -32,7 +32,7 @@ export class UI {
       const gameOverHTML = `
         <h1>Resultado</h1>
         <h2 id="score">Tu puntaje: ${score}</h2>
-        <a href="/" type="button" class="inicio">Iniciar</a>
+        <a href="../index.html" type="button" class="inicio">Iniciar</a>
         `;
   
       const element = document.getElementById("quiz");
